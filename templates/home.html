@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews Sentiment Analyzer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> 
+    <style>
+        body {
+            text-align: center;
+            background: linear-gradient(135deg, #a28089, #a0d2eb); 
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 80%; 
+            height: 400px; 
+            padding: 20px;
+            margin: 8% auto 0;
+            box-shadow: 0px 0px 30px #888888;
+            border-radius: 10px;
+            background: #e5eaf5; 
+        }
+        h1 {
+            color: #8458B3; 
+            font-size: 32px;
+            font-family: Georgia, serif; 
+            font-weight: bold; 
+            margin-bottom: 30px; 
+        }
+        input[type="text"] {
+            font-style: italic;
+            padding: 15px;
+            width: 80%; 
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            border: 2px solid #d0bdf4; 
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            font-style: italic;
+            background: #a0d2eb; 
+            color: white;
+            font-weight: bold;
+            padding: 15px;
+            width: 40%; 
+            margin-bottom: 20px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            cursor: pointer;
+            border: none;
+            box-sizing: border-box;
+        }
+        input[type="submit"]:hover {
+            background: #77a6cc; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>User Reviews Sentiment Analyzer</h1>
+        <form action="/prediction" method="post">
+            <input type="text" name="reviews" placeholder="Enter Review"><br>
+            <input type="submit" value="Predict Sentiment">
+        </form>
+    </div>
+</body>
+</html>
