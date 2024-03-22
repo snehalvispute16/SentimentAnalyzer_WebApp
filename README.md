@@ -1,6 +1,6 @@
 # Sentiment Analysis Web Application
 
-Note: The application has been deployed on Amazon EC2. You can access the application via the following link: Sentiment Analyzer App. Please note that this instance will be terminated within 5 days as it is hosted on the Free Tier of AWS.
+Note: The application has been deployed on Amazon EC2. You can access the application via the following link: http://13.201.66.7:5000/. Please note that this instance will be terminated within 5 days as it is hosted on the Free Tier of AWS.
 
 ## Objective
 The objective of this project is to create a machine learning model to classify customer reviews as positive or negative and to deploy this model into a web application. By analyzing the sentiment of reviews, we aim to gain insights into product features that contribute to customer satisfaction or dissatisfaction.
